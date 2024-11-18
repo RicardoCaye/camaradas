@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Construction, MessageSquare, ThumbsUp, Users2 } from 'lucide-react';
 
 export function CommunityMessages() {

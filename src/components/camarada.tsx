@@ -122,15 +122,6 @@ export function CamaradaComponent() {
   //   }
   // }
 
-  const mostrarNotificacion = (mensaje: string) => {
-    if ('Notification' in window && Notification.permission === 'granted') {
-      new Notification('Nuevo mensaje de Camarada', {
-        body: mensaje,
-        icon: '/favicon.ico'
-      })
-    }
-  }
-
   // const handleLogin = (e: React.FormEvent) => {
   //   e.preventDefault()
   //   console.log('Iniciar sesión con:', email, password)
